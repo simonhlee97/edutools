@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
-import HomePage from './HomePage'
+import HomePage from './pages/homepage/homepage.js'
 import NavBar from './components/NavBar'
 import TodoList from './components/TodoList'
 import TodoItems from './components/TodoItems'
+// import Directory from './components/directory/directory.component'
+
+
+// import './homepage.styles.scss';
 
 class App extends Component {
   inputElement = React.createRef()

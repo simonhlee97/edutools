@@ -1,0 +1,42 @@
+// Variables - Fonts
+$font: Helvetica, sans-serif;
+
+$font-sz: 72px;
+
+
+// Variables - Colors
+$bgcolor: lightblue;
+$header-color: #333;
+$text-color: #444;
+$third-color: #555;
+
+
+
+
+// Modules
+
+
+
+// Partials
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+
+// Mixins
+@mixin square($size, $color) {
+  width: $size;
+  height: $size;
+  background-color: $color;
+}
+
+.small-blue-square {
+  @include square(20px, rgb(0,0,255));
+}
+
+.big-red-square {
+  @include square(300px, rgb(255,0,0));
+}

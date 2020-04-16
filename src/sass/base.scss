@@ -1,0 +1,16 @@
+@import "variables";
+@import "colors";
+@import "reset";
+
+
+// Mixin and Include
+@mixin important-text {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+.danger {
+  @include important-text;
+  background-color: green;
+}
