@@ -1,13 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+// import HomePage from '../pages/homepage/homepage.js';
+// import HatsPage from '../pages/homepage/homepage.js';
+
 
 const NavBar = () => (
   <div>
-    <ul class="nav">
-	   <li><a href="https://github.com/">About</a></li>
-	   <li><a href="https://github.com/">Home</a></li>
-	   <li><a href="https://github.com/">ChallengeTrends</a></li>
-	</ul>
+  		<Link to='/'>Home</Link>
+  		<Link to='/shop'>Shop</Link>
+  		<Link to='/contact'>Contact</Link>
   </div>
 );
 
 export default NavBar
+
+
+
