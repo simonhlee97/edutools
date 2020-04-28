@@ -26,11 +26,11 @@ const INITIAL_STATE = {
 					link: 'shop/mens'
 				},
 				{
-					title: 'women',
+					title: 'womens',
 					imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
 					size: 'large',
 					id: 5,
-					link: 'shop/women'
+					link: 'shop/womens'
 				}
 			]
 }
